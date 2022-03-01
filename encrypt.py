@@ -1,5 +1,16 @@
-saisie = str(input("text to encrypt: "))
-dec = int(input("offset value "))
+print ("follow me on github @mastersushi")  
+print(""" 
+                                   _   
+                                  | |  
+   ___ _ __   ___ _ __ _   _ _ __ | |_ 
+  / _ \ '_ \ / __| '__| | | | '_ \| __|
+ |  __/ | | | (__| |  | |_| | |_) | |_ 
+  \___|_| |_|\___|_|   \__, | .__/ \__|
+                        __/ | |        
+                       |___/|_|        
+""")
+saisie = str(input("[+] text to encrypt: ")) 
+dec = int(input("[+] offset value "))
 crypt = ""
 for r in saisie :
     if r != " ":
